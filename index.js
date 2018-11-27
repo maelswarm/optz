@@ -13,6 +13,14 @@ module.exports = {
     }
     return accumulator;
   },
+  reduceRight: function(arr, cb) {
+    let accumulator = 0;
+    let len = arr.length;
+    for (let i = len; i >= 0; i--) {
+      accumulator = cb(accumulator, arr[i]);
+    }
+    return accumulator;
+  },
   map: function(arr, cb) {
     let len = arr.length;
     let newArr = [];
