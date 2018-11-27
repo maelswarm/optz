@@ -1,6 +1,6 @@
 {
   "name": "optz",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Make things quicker.",
   "main": "index.js",
   "scripts": {
