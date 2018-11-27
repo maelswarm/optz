@@ -1,0 +1,21 @@
+{
+  "name": "optz",
+  "version": "0.1.0",
+  "description": "Make things quicker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:roecrew/optz.git"
+  },
+  "keywords": [
+    "optimization",
+    "speed",
+    "fast",
+    "optimize"
+  ],
+  "author": "roecrew",
+  "license": "MIT"
+}
